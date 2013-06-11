@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeattleParking</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_all">All</string>
+    <string name="tab_free">Free</string>
+    <string name="time_set">Time Set</string>
+    <string name="dialog_parking_marker">Parking Marker Text</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="star">Star</string>
+    <string name="saved_location">Saved Location</string>
+
+</resources>

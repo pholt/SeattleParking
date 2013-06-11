@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	    android:id="@id/menu_star" 
+	    android:icon="@drawable/ic_star" 
+	    android:title="@string/star"
+	    android:showAsAction="always"></item>
+    
+	<item
+    	android:id="@+id/menu_search"
+   		android:title="@string/action_search"
+    	android:showAsAction="always"
+    	android:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings">
+    </item>
+    
+   <!-- These can be your tabs when you figure out how to make them tabs.
+   <ViewGroup
+       	android:id="@+id/top_bar">
+	    <item
+	        android:id="@+id/menu_paid"
+	        android:title="@string/tab_paid"
+	        android:showAsAction="ifRoom|withText">
+	    </item>
+	
+	    <item
+	        android:id="@+id/menu_free"
+	        android:title="@string/tab_free"
+	        android:showAsAction="ifRoom|withText">
+	    </item>
+	
+	    <item
+	        android:id="@+id/menu_both"
+	        android:title="@string/tab_both"
+	        android:showAsAction="ifRoom|withText">
+	    </item>
+    </ViewGroup>-->
+    
+</menu>
+
+
+
